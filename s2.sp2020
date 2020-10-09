@@ -1,0 +1,13 @@
+data x = 1 .
+data y = 2 .
+begin
+  data z = 3 .
+  in x .
+  begin 
+    in y .
+    in z .
+    out z .
+  end 
+  out y .
+  out x .
+end

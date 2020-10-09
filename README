@@ -1,0 +1,14 @@
+Invocation: comp [file] 
+ My virtual machine is called VM
+
+Ivocation would look like this. 
+
+./comp file
+or
+comp file if you have current directory in your path.
+Keyboard input is supported.
+Same invocation without file but will produce kb.asm
+
+All programs work as expected including the storage allcation test files. (except as noted below) 
+
+Program 6 generates running code but output is incorrect. 
